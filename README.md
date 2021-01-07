@@ -1,13 +1,13 @@
-# Python-send-email is a simple skript for send email over any smtp server.
+# Python-send-email is a simple script to send an email through any smtp server.
 
-For start, you can use simple example:
+At the first, you can use a simple example:
 
 ```bash
 pip3 install -r requirements.txt
 python3 send_email.py --help 
 ```
 
-You have to use config.ini or use command line arguments for send parametrs:
+You can use config.ini or use command line arguments to send parametrs:
 ```bash
 Usage: send_email.py [OPTIONS]
 
@@ -24,7 +24,7 @@ Options:
   --help                    Show this message and exit.
 ```
 
-You also can build docker image and send email through one. 
+You can also build a docker image and send an email through one. 
 
 ```bash
 docker build -t python-send-email .
