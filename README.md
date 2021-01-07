@@ -31,4 +31,4 @@ docker build -t python-send-email .
 docker run -t python-send-email --help
 ```
 
-Thank you, for your comments and supports. It is very important for me. :hugs:
+Thankы, for your comments and support. It is very important for me. :hugs:
